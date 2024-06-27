@@ -1,6 +1,6 @@
 <?php
 
-echo "Ingrese cantidad de empleados \n";
-$cantidad_empleados = intval(readline());
-$empleados = [];
+echo "ingrese el total de empleados\n";
+$total_empleados = intval(readline());
+$empelados = [];
 
