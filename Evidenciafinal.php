@@ -13,12 +13,12 @@ for ($i = 1; $i = $total_empleados; $i++) {
     echo "ingrese su genero \n";
     $genero = readline();
     echo "ingrese su edad \n";
-    $edad = (readline);
+    $edad = (readline());
     echo "ingrese su estatura \n";
     $estatura = floatval(readline());
     echo "ingrese su peso \n";
-    $peso = floatval(readline);
-
+    $peso = floatval(readline());
+    
 
 }
 
