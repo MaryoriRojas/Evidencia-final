@@ -18,6 +18,16 @@ for ($i = 1; $i = $total_empleados; $i++) {
     $estatura = floatval(readline());
     echo "ingrese su peso \n";
     $peso = floatval(readline());
+
+    $empleados[] = [
+        'nombre' => $nombre,
+        'dni' => $dni,
+        'genero' => $genero,
+        'edad' => $edad,
+        'estatura' => $estatura,
+        'peso' => $peso,
+    ];
+    echo "\n";
     
 
 }
