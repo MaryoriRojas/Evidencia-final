@@ -9,7 +9,7 @@ for ($i = 1; $i = $total_empleados; $i++) {
     echo "ingrese su nombre\n";
     $nombre = readline();
     echo "ingrese su identidad \n";
-    $dni =intval(readline());
+    $DNI =intval(readline());
     echo "ingrese su genero \n";
     $genero = readline();
     echo "ingrese su edad \n";
@@ -21,14 +21,17 @@ for ($i = 1; $i = $total_empleados; $i++) {
 
     $empleados[] = [
         'nombre' => $nombre,
-        'dni' => $dni,
+        'DNI' => $DNI,
         'genero' => $genero,
         'edad' => $edad,
         'estatura' => $estatura,
         'peso' => $peso,
     ];
-    echo "\n";
-    
-
+    echo "\n";    
 }
+echo "Nnombre de empleado \n";
+$buscar_nombre = readline();
+echo "Identidad del empleado";
+$buscar_DNI =readline();
 
+$encontrado = false;
